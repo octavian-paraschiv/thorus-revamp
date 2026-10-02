@@ -1,0 +1,31 @@
+<Solution>
+  <Folder Name="/.github/">
+    <File Path=".github/changelog.md" />
+    <File Path=".github/implementation-plan.md" />
+    <File Path=".github/specs.md" />
+  </Folder>
+  <Folder Name="/.github/agents/">
+    <File Path=".github/agents/dev-agent.md" />
+  </Folder>
+  <Folder Name="/.github/archive/">
+    <File Path=".github/archive/specs_v1_2026-10-01.md" />
+    <File Path=".github/archive/specs_v2_2026-10-01.md" />
+    <File Path=".github/archive/specs_v3_2026-10-01.md" />
+  </Folder>
+  <Folder Name="/.github/skills/" />
+  <Folder Name="/.github/skills/dev-agent/">
+    <File Path=".github/skills/dev-agent/project.config.md" />
+  </Folder>
+  <Folder Name="/src/">
+    <Project Path="src/GribImporter/GribImporter.csproj" />
+    <Project Path="src/NetCdfImporter/NetCdfImporter.csproj" />
+    <Project Path="src/ThorusCommon/ThorusCommon.csproj" />
+    <Project Path="src/ThorusSimulation/ThorusSimulation.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/GribImporterTests/GribImporterTests.csproj" />
+    <Project Path="tests/NetCdfImporterTests/NetCdfImporterTests.csproj" />
+    <Project Path="tests/ThorusCommonTests/ThorusCommonTests.csproj" />
+    <Project Path="tests/ThorusSimulationTests/ThorusSimulationTests.csproj" />
+  </Folder>
+</Solution>
